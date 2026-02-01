@@ -18,3 +18,23 @@ class Ship:
     def blitme(self):
         """Draw the ship at its current location. """
         self.screen.blit(self.image, self.rect)
+        
+        
+# class Martian:
+#     """A class to test the martian image"""
+    
+#     def __init__(self, ai_game):
+#         """Initialize the martian and set its starting position. """
+#         self.screen = ai_game.screen
+#         self.screen_rect = ai_game.screen.get_rect()
+        
+#         # Load the martian.
+#         self.image = pygame.image.load('images/martian.bmp')
+#         self.rect = self.image.get_rect()
+        
+#         # Start each new martian at the center of the screen. 
+#         self.rect.center = self.screen_rect.center
+        
+#     def blitme(self):
+#         """Draw martian at its current location."""
+#         self.screen.blit(self.image, self.rect)
