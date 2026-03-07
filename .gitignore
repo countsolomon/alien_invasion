@@ -1,0 +1,8 @@
+# Ignore these folders
+exercises/
+
+#Ignore these files
+test.py
+
+#Ignore everywhere
+**/*.DS_Store
